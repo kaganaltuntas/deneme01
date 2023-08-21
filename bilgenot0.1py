@@ -1,0 +1,67 @@
+matematik = []
+türkçe = []
+fen = []
+sosyal = []
+din = []
+ingilizce = []
+
+a = input("merhaba BİLGE NOTLAR'a hoş geldiniz hangi dersten not almak istiyorsunuz küçük harflerle yazın lütfen('matematik','fen','türkçe','sosyal','din','ingilizce') eğer notlarınıza bakmak istiyorsanız('fen not','matematik not' küçük harflerle yaza bilirsiniz):")
+while True:
+ if(a == 'matematik'):
+  a = input("matematik not:")
+  matematik.append(a)
+  print("notunuz başarıyla eklenmiştir")
+  a = input("hangi dersten not almak istiyorsunuz küçük harflerle yazın lütfen('matematik','fen','türkçe','sosyal','din','ingilizce') eğer notlarınıza bakmak istiyorsanız('fen not','matematik not' küçük harflerle yaza bilirsiniz):")
+ 
+ if(a == 'türkçe'):
+  a = input("türkçe not:")
+  türkçe.append(a)
+  print("notunuz başarıyla eklenmiştir")
+  a = input("hangi dersten not almak istiyorsunuz küçük harflerle yazın lütfen('matematik','fen','türkçe','sosyal','din','ingilizce') eğer notlarınıza bakmak istiyorsanız('fen not','matematik not' küçük harflerle yaza bilirsiniz):")
+ if(a == 'fen'):
+  a = input("fen not:")
+  fen.append(a)
+  print("notunuz başarıyla eklenmiştir")
+  a = input("hangi dersten not almak istiyorsunuz küçük harflerle yazın lütfen('matematik','fen','türkçe','sosyal','din','ingilizce') eğer notlarınıza bakmak istiyorsanız('fen not','matematik not' küçük harflerle yaza bilirsiniz):")
+ if(a == 'sosyal'):
+  a = input("sosyal not:")
+  sosyal.append(a)
+  print("notunuz başarıyla eklenmiştir")
+  a = input("hangi dersten not almak istiyorsunuz küçük harflerle yazın lütfen('matematik','fen','türkçe','sosyal','din','ingilizce') eğer notlarınıza bakmak istiyorsanız('fen not','matematik not' küçük harflerle yaza bilirsiniz):")
+ if(a == 'din'):
+  a = input("din not:")
+  din.append(a)
+  print("notunuz başarıyla eklenmiştir")
+  a = input("hangi dersten not almak istiyorsunuz küçük harflerle yazın lütfen('matematik','fen','türkçe','sosyal','din','ingilizce') eğer notlarınıza bakmak istiyorsanız('fen not','matematik not' küçük harflerle yaza bilirsiniz):")
+ if(a == 'ingilizce'):
+  a = input("ingilizce not:")
+  ingilizce.append(a)
+  print("notunuz başarıyla eklenmiştir")
+  a = input("hangi dersten not almak istiyorsunuz küçük harflerle yazın lütfen('matematik','fen','türkçe','sosyal','din','ingilizce') eğer notlarınıza bakmak istiyorsanız('fen not','matematik not' küçük harflerle yaza bilirsiniz):")
+
+
+
+ if(a == 'matematik not'):
+  print(matematik)
+  a = input("hangi dersten not almak istiyorsunuz küçük harflerle yazın lütfen('matematik','fen','türkçe','sosyal','din','ingilizce') eğer notlarınıza bakmak istiyorsanız('fen not','matematik not' küçük harflerle yaza bilirsiniz):")
+ 
+ if(a == 'türkçe not'):
+  print(türkçe)
+  a = input("hangi dersten not almak istiyorsunuz küçük harflerle yazın lütfen('matematik','fen','türkçe','sosyal','din','ingilizce') eğer notlarınıza bakmak istiyorsanız('fen not','matematik not' küçük harflerle yaza bilirsiniz):")
+ if(a == 'fen not'):
+  print(fen)
+
+  a = input("hangi dersten not almak istiyorsunuz küçük harflerle yazın lütfen('matematik','fen','türkçe','sosyal','din','ingilizce') eğer notlarınıza bakmak istiyorsanız('fen not','matematik not' küçük harflerle yaza bilirsiniz):")
+ if(a == 'sosyal'):
+  print(sosyal)
+ 
+  a = input("hangi dersten not almak istiyorsunuz küçük harflerle yazın lütfen('matematik','fen','türkçe','sosyal','din','ingilizce') eğer notlarınıza bakmak istiyorsanız('fen not','matematik not' küçük harflerle yaza bilirsiniz):")
+ if(a == 'din'):
+  print(din)
+ 
+  a = input("hangi dersten not almak istiyorsunuz küçük harflerle yazın lütfen('matematik','fen','türkçe','sosyal','din','ingilizce') eğer notlarınıza bakmak istiyorsanız('fen not','matematik not' küçük harflerle yaza bilirsiniz):")
+ if(a == 'ingilizce'):
+  print(ingilizce)
+
+  a = input("hangi dersten not almak istiyorsunuz küçük harflerle yazın lütfen('matematik','fen','türkçe','sosyal','din','ingilizce') eğer notlarınıza bakmak istiyorsanız('fen not','matematik not' küçük harflerle yaza bilirsiniz):")
+
